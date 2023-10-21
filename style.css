@@ -1,0 +1,228 @@
+body{
+    background-image: url('fundo_pr.jpeg');
+    background-size: cover; /* Isso ajustará a imagem para preencher todo o elemento pai */
+    background-repeat: no-repeat; /* Isso impede que a imagem se repita */
+}
+
+
+/* PAGINA INICIAL*/
+
+#cabecalho{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+}
+
+
+#botao-pag-inicial-home{
+    display: table-column; /* Torna os botões em elementos de bloco (um embaixo do outro) */
+    width: 100px;
+    height: 50px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+
+#botao-pag-inicial-home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+
+#botao-pag-inicial-home:hover{
+    color: #e8e8e8;
+}
+
+#botao-pag-inicial-home::before {
+    width: 100%;
+   }
+
+
+#titulo-pag-inicial{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+
+#areas{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+#titulo-materias{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#botao-areas{
+    display: table-column; /* Torna os botões em elementos de bloco (um embaixo do outro) */
+    margin: 10px auto; /* Centraliza os botões horizontalmente */
+    padding: 10px; /* Espaçamento interno para melhor aparência */
+    margin-top: 30px;
+    width: 300px;
+    height: 90px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+
+#botao-areas::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+
+#botao-areas:hover{
+    color: #e8e8e8;
+}
+
+.botao-curso:hover::before {
+    width: 100%;
+   }
+
+
+
+  /* PAGINA CURSOS */
+
+#cursos{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 100px;
+    border-radius: 20px;
+    height: auto;
+    padding: 10px;
+    opacity: 0.9;
+}  
+
+
+
+/* Estlização dos botões*/
+
+
+.botao-curso {
+    display: table-column; /* Torna os botões em elementos de bloco (um embaixo do outro) */
+    margin: 10px auto; /* Centraliza os botões horizontalmente */
+    padding: 10px; /* Espaçamento interno para melhor aparência */
+    margin-top: 30px;
+    width: 300px;
+    height: 90px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.botao-curso::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+
+.botao-curso:hover{
+    color: #e8e8e8;
+}
+
+.botao-curso:hover::before {
+    width: 100%;
+   }
+
+
+#TituloinfoCursos{
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#infoCursos{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#tituloFaculdades{
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#faculdades{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
