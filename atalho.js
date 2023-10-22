@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
             botaoHome.style.color = '#E8F1F2'
             botaoHome.style.backgroundColor = '#247BA0'
             botaoHome.style.zIndex = '1';
+            botaoHome.style.fontWeight = 'bold';
 
             botaoHome.onclick = function(){
                exatas();
@@ -405,6 +406,7 @@ document.addEventListener('DOMContentLoaded', function () {
             botaoHome.style.color = '#E8F1F2'
             botaoHome.style.backgroundColor = '#247BA0'
             botaoHome.style.zIndex = '1';
+            botaoHome.style.fontWeight = 'bold';
             botaoHome.onclick = function(){
                linguagens();
             }
@@ -545,6 +547,7 @@ document.addEventListener('DOMContentLoaded', function () {
             botaoHome.style.color = '#E8F1F2'
             botaoHome.style.backgroundColor = '#247BA0'
             botaoHome.style.zIndex = '1';
+            botaoHome.style.fontWeight = 'bold';
 
             botaoHome.onclick = function(){
                humanas();
@@ -578,7 +581,7 @@ document.addEventListener('DOMContentLoaded', function () {
             botaopublicidadePropaganda.innerHTML = 'Publicidade e Propaganda';
             botaoCienciasContabeis.innerHTML = 'Ciências Contábeis';
             botaoEconomia.innerHTML = 'Economia';
-            botaoRelacoesInternacionais.innerHTML = 'relações Internacionais';
+            botaoRelacoesInternacionais.innerHTML = 'Relações Internacionais';
             botaoSociologia.innerHTML = 'Sociologia';
             botaoFilosofia.innerHTML = 'Filosofia';
             botaoRelacoesPublicas.innerHTML = 'Relações Públicas';
@@ -840,7 +843,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
 
-        else if (areas === 'BIOLÓGICOS') {
+        else if (areas === 'BIOLÓGICAS') {
             const botaoHome = document.createElement('button');
             botaoHome.innerHTML = 'VOLTAR';
             botaoHome.classList.add('cabecalho');
@@ -859,6 +862,7 @@ document.addEventListener('DOMContentLoaded', function () {
             botaoHome.style.color = '#E8F1F2'
             botaoHome.style.backgroundColor = '#247BA0'
             botaoHome.style.zIndex = '1';
+            botaoHome.style.fontWeight = 'bold';
             botaoHome.onclick = function(){
                biologicos();
             }
@@ -1040,7 +1044,7 @@ function humanas() {
 
 
 function biologicos() {
-    areas = "BIOLÓGICOS"; // Define a variável areas como "BIOLÓGICOS"
+    areas = "BIOLÓGICAS"; // Define a variável areas como "BIOLÓGICOS"
     window.location.href = 'paginacursos.html?area=' + encodeURIComponent(areas);
 }
 

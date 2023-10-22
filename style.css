@@ -8,6 +8,7 @@ body{
 /* PAGINA INICIAL*/
 
 #cabecalho{
+    opacity: 85%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #13293D;
     margin: 0 auto;
@@ -20,7 +21,7 @@ body{
 #botao-pag-inicial-home{
     display: table-column; /* Torna os botões em elementos de bloco (um embaixo do outro) */
     width: 100px;
-    height: 50px;
+    height: 60px;
     border: unset;
     border-radius: 15px;
     color: #E8F1F2;
@@ -70,6 +71,8 @@ body{
 
 
 #areas{
+    opacity: 85%;
+    padding: 10px;
     background-color: #13293D;
     text-align: center;
     align-items: center;
