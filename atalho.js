@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (areas === 'EXATAS') {
             //Voltar a telaa 
             const botaoHome = document.createElement('button');
-            botaoHome.innerHTML = 'Voltar';
+            botaoHome.innerHTML = 'VOLTAR';
             botaoHome.classList.add('cabecalho');
             botaohome.appendChild(botaoHome);
            
@@ -42,6 +42,9 @@ document.addEventListener('DOMContentLoaded', function () {
             botaoHome.style.fontSize = '17px'
             botaoHome.style.boxShadow = '4px 8px 19px -3px rgba(0,0,0,0.27)';
             botaoHome.style.cursor = 'pointer';
+            botaoHome.style.color = '#E8F1F2'
+            botaoHome.style.backgroundColor = '#247BA0'
+            botaoHome.style.zIndex = '1';
 
             botaoHome.onclick = function(){
                exatas();
@@ -385,7 +388,7 @@ document.addEventListener('DOMContentLoaded', function () {
         else if (areas === 'LINGUAGENS') {
             //Voltar a telaa 
             const botaoHome = document.createElement('button');
-            botaoHome.innerHTML = 'Voltar';
+            botaoHome.innerHTML = 'VOLTAR';
             botaoHome.classList.add('cabecalho');
             botaohome.appendChild(botaoHome);
            
@@ -399,7 +402,9 @@ document.addEventListener('DOMContentLoaded', function () {
             botaoHome.style.fontSize = '17px'
             botaoHome.style.boxShadow = '4px 8px 19px -3px rgba(0,0,0,0.27)';
             botaoHome.style.cursor = 'pointer';
-
+            botaoHome.style.color = '#E8F1F2'
+            botaoHome.style.backgroundColor = '#247BA0'
+            botaoHome.style.zIndex = '1';
             botaoHome.onclick = function(){
                linguagens();
             }
@@ -523,7 +528,7 @@ document.addEventListener('DOMContentLoaded', function () {
         else if (areas === 'HUMANAS') {
             //Voltar a telaa 
             const botaoHome = document.createElement('button');
-            botaoHome.innerHTML = 'Voltar';
+            botaoHome.innerHTML = 'VOLTAR';
             botaoHome.classList.add('cabecalho');
             botaohome.appendChild(botaoHome);
            
@@ -537,6 +542,9 @@ document.addEventListener('DOMContentLoaded', function () {
             botaoHome.style.fontSize = '17px'
             botaoHome.style.boxShadow = '4px 8px 19px -3px rgba(0,0,0,0.27)';
             botaoHome.style.cursor = 'pointer';
+            botaoHome.style.color = '#E8F1F2'
+            botaoHome.style.backgroundColor = '#247BA0'
+            botaoHome.style.zIndex = '1';
 
             botaoHome.onclick = function(){
                humanas();
@@ -833,9 +841,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
         else if (areas === 'BIOLÓGICOS') {
-            //Voltar a telaa 
             const botaoHome = document.createElement('button');
-            botaoHome.innerHTML = 'Voltar';
+            botaoHome.innerHTML = 'VOLTAR';
             botaoHome.classList.add('cabecalho');
             botaohome.appendChild(botaoHome);
            
@@ -849,7 +856,9 @@ document.addEventListener('DOMContentLoaded', function () {
             botaoHome.style.fontSize = '17px'
             botaoHome.style.boxShadow = '4px 8px 19px -3px rgba(0,0,0,0.27)';
             botaoHome.style.cursor = 'pointer';
-
+            botaoHome.style.color = '#E8F1F2'
+            botaoHome.style.backgroundColor = '#247BA0'
+            botaoHome.style.zIndex = '1';
             botaoHome.onclick = function(){
                biologicos();
             }

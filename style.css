@@ -9,10 +9,11 @@ body{
 
 #cabecalho{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: white;
+    background-color: #13293D;
     margin: 0 auto;
     padding: 15px;
     display: flex;
+    color: #E8F1F2;
 }
 
 
@@ -22,9 +23,9 @@ body{
     height: 50px;
     border: unset;
     border-radius: 15px;
-    color: #212121;
+    color: #E8F1F2;
     z-index: 1;
-    background: #e8e8e8;
+    background: #247BA0;
     position: relative;
     font-weight: 1000;
     font-size: 17px;
@@ -69,7 +70,7 @@ body{
 
 
 #areas{
-    background-color: white;
+    background-color: #13293D;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -81,7 +82,7 @@ body{
 
 #titulo-materias{
     text-align: center;
-    color: black;
+    color: #E8F1F2;
     font-size: 35px;
     padding: 10px;
     text-decoration: underline;
@@ -98,7 +99,7 @@ body{
     border-radius: 15px;
     color: #212121;
     z-index: 1;
-    background: #e8e8e8;
+    background: #247BA0;
     position: relative;
     font-weight: 1000;
     font-size: 17px;
@@ -139,7 +140,7 @@ body{
   /* PAGINA CURSOS */
 
 #cursos{
-    background-color: white;
+    background-color: #13293D;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -156,6 +157,11 @@ body{
 
 /* Estlização dos botões*/
 
+#titulo-cursos{
+    color: #E8F1F2;
+    font-size: 40px;
+    text-decoration: underline;
+}
 
 .botao-curso {
     display: table-column; /* Torna os botões em elementos de bloco (um embaixo do outro) */
@@ -168,7 +174,7 @@ body{
     border-radius: 15px;
     color: #212121;
     z-index: 1;
-    background: #e8e8e8;
+    background: #247BA0;
     position: relative;
     font-weight: 1000;
     font-size: 17px;
@@ -205,24 +211,28 @@ body{
 
 
 #TituloinfoCursos{
+    color: #1B98E0;
     text-decoration: underline;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #infoCursos{
+    color: #E8F1F2;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
 #tituloFaculdades{
+    color: #1B98E0;
     text-decoration: underline;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #faculdades{
+    color: #E8F1F2;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
