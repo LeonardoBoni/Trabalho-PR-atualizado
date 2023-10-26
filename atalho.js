@@ -453,7 +453,7 @@ document.addEventListener('DOMContentLoaded', function () {
             };
 
             botaoJornalismo.onclick = function () {
-                cursoEscolhido = "Joçrnalismo"
+                cursoEscolhido = "Jornalismo"
                 titulocurso.innerHTML = `${cursoEscolhido}!`;
                 infoCrusos.innerHTML = ""
                 botaoCursos.innerHTML = "";
